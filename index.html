@@ -3,95 +3,49 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>特定技能「工業製品製造業・機械保全」完全ガイド｜社員研修資料</title>
-<meta name="description" content="特定技能・機械保全の実務・試験・キャリアパス完全分析。ベトナム人財のための戦略的選択ガイド（社員研修資料）。">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-light.min.css">
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<title>AOC ｜ 特定技能・工業製品製造業 資料集</title>
+<meta name="description" content="送出し機関AOC：特定技能「工業製品製造業・機械保全」の提案書と研修資料。">
 <style>
-  :root { --accent:#0b5ed7; --accent-dark:#084298; }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN",
-                 "Hiragino Sans", "Noto Sans JP", Meiryo, sans-serif;
-    background: #f4f6fb;
-    color: #24292f;
-  }
-  .site-header {
-    background: linear-gradient(135deg, var(--accent-dark), var(--accent));
-    color: #fff;
-    padding: 32px 20px 28px;
-    text-align: center;
-  }
-  .site-header h1 { margin: 0 0 8px; font-size: clamp(18px, 3.5vw, 26px); line-height: 1.4; }
-  .site-header p { margin: 4px 0; opacity: .9; font-size: 14px; }
-  .badge {
-    display: inline-block; margin-top: 10px; padding: 4px 12px;
-    background: rgba(255,255,255,.18); border-radius: 999px; font-size: 12px;
-  }
-  .toolbar {
-    max-width: 980px; margin: 18px auto 0; padding: 0 16px;
-    display: flex; gap: 10px; flex-wrap: wrap; justify-content: flex-end;
-  }
-  .btn {
-    cursor: pointer; border: 1px solid #d0d7de; background: #fff; color: var(--accent-dark);
-    padding: 8px 14px; border-radius: 8px; font-size: 13px; font-weight: 600;
-    text-decoration: none; transition: .15s;
-  }
-  .btn:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
-  .container {
-    max-width: 980px; margin: 14px auto 60px; padding: 0 16px;
-  }
-  .markdown-body {
-    background: #fff; border: 1px solid #d8dee4; border-radius: 14px;
-    padding: 38px clamp(18px, 5vw, 56px); box-shadow: 0 6px 24px rgba(13,38,76,.06);
-  }
-  .markdown-body table { display: table; width: 100%; }
-  .markdown-body details { background:#f6f8fa; border:1px solid #d0d7de; border-radius:8px; padding:8px 14px; margin:12px 0; }
-  .markdown-body summary { cursor: pointer; font-weight: 600; color: var(--accent-dark); }
-  footer { text-align:center; color:#6a737d; font-size:12px; padding: 0 16px 40px; }
-  #status { text-align:center; padding:40px; color:#6a737d; }
-  @media print {
-    .site-header, .toolbar, footer { display:none; }
-    body { background:#fff; }
-    .markdown-body { border:none; box-shadow:none; padding:0; }
-  }
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Kaku Gothic ProN","Hiragino Sans","Noto Sans JP",Meiryo,sans-serif;background:#eef2f9;color:#24292f}
+  .hero{background:linear-gradient(135deg,#0a1f44,#0b5ed7);color:#fff;padding:48px 20px 40px;text-align:center}
+  .hero h1{margin:0 0 10px;font-size:clamp(20px,4vw,30px)}
+  .hero p{margin:0;opacity:.9;font-size:15px}
+  .wrap{max-width:960px;margin:-28px auto 60px;padding:0 18px}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+  .card{display:flex;flex-direction:column;background:#fff;border:1px solid #d8dee4;border-radius:16px;padding:26px 24px;box-shadow:0 8px 28px rgba(13,38,76,.08);text-decoration:none;color:inherit;transition:.18s}
+  .card:hover{transform:translateY(-4px);box-shadow:0 14px 34px rgba(13,38,76,.16)}
+  .card .tag{align-self:flex-start;font-size:12px;font-weight:700;padding:4px 12px;border-radius:999px;margin-bottom:14px}
+  .tag.green{background:#e3f5ec;color:#0a6b3b}
+  .tag.blue{background:#e4eefb;color:#0b4ea2}
+  .card h2{margin:0 0 8px;font-size:19px;line-height:1.4}
+  .card p{margin:0 0 18px;font-size:14px;color:#57606a;flex:1}
+  .open{align-self:flex-start;font-weight:700;font-size:14px;color:#0b5ed7}
+  .card.green .open{color:#138a4e}
+  footer{text-align:center;color:#6a737d;font-size:12px;padding:0 16px 40px}
 </style>
 </head>
 <body>
-  <header class="site-header">
-    <h1>特定技能「工業製品製造業・機械保全」完全ガイド</h1>
-    <p>実務・試験・キャリアパス完全分析 ― ベトナム人財のための戦略的選択ガイド</p>
-    <span class="badge">社員研修資料</span>
+  <header class="hero">
+    <h1>特定技能「工業製品製造業」資料集</h1>
+    <p>送出し機関 AOC ｜ 製造業 約180名のビザ安定化プロジェクト</p>
   </header>
-
-  <div class="toolbar">
-    <a class="btn" href="特定技能_機械保全_研修資料.md" download>📄 Markdownをダウンロード</a>
-    <button class="btn" onclick="window.print()">🖨️ 印刷 / PDF保存</button>
-  </div>
-
-  <main class="container">
-    <article id="content" class="markdown-body">
-      <div id="status">読み込み中…</div>
-    </article>
+  <main class="wrap">
+    <div class="cards">
+      <a class="card green" href="teian.html">
+        <span class="tag green">社内提案書</span>
+        <h2>📑 技人国 → 特定技能 移行 提案書</h2>
+        <p>180名のビザ更新リスクと解決策、必要数値、費用・スケジュール（目安）、AOCのアクションプランをまとめた経営判断用の資料。</p>
+        <span class="open">提案書を開く →</span>
+      </a>
+      <a class="card" href="kyozai.html">
+        <span class="tag blue">社員研修資料</span>
+        <h2>📘 機械保全 完全ガイド</h2>
+        <p>制度・試験・実務・キャリアパスを図表で解説。受験対策の教材として使える、人財向けの研修資料。</p>
+        <span class="open">研修資料を開く →</span>
+      </a>
+    </div>
   </main>
-
-  <footer>
-    本資料の数値（受入れ枠・合格率・給与等）は作成時点のデータに基づく目安です。最新情報は公式発表（JAIM 等）をご確認ください。
-  </footer>
-
-<script>
-  const MD_FILE = "特定技能_機械保全_研修資料.md";
-  fetch(MD_FILE)
-    .then(r => { if (!r.ok) throw new Error(r.status); return r.text(); })
-    .then(md => {
-      marked.setOptions({ gfm: true, breaks: false });
-      document.getElementById("content").innerHTML = marked.parse(md);
-    })
-    .catch(err => {
-      document.getElementById("status").textContent =
-        "資料の読み込みに失敗しました（" + err + "）。Markdownファイルを直接ご確認ください。";
-    });
-</script>
+  <footer>各資料の数値は作成時点の目安です。制度・試験・費用の最新情報は公式発表（JAIM 等）をご確認ください。</footer>
 </body>
 </html>
