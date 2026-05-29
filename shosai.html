@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>特定技能「工業製品製造業」徹底解説｜AOC</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-light.min.css">
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Kaku Gothic ProN","Hiragino Sans","Noto Sans JP",Meiryo,sans-serif;background:#f4f6fb;color:#24292f}
+  .site-header{background:linear-gradient(135deg,#5a2d82,#8e44ad);color:#fff;padding:32px 20px 28px;text-align:center}
+  .site-header h1{margin:0 0 8px;font-size:clamp(18px,3.5vw,26px);line-height:1.4}
+  .site-header p{margin:4px 0;opacity:.9;font-size:14px}
+  .badge{display:inline-block;margin-top:10px;padding:4px 12px;background:rgba(255,255,255,.18);border-radius:999px;font-size:12px}
+  .toolbar{max-width:980px;margin:18px auto 0;padding:0 16px;display:flex;gap:10px;flex-wrap:wrap;justify-content:space-between;align-items:center}
+  .toolbar .right{display:flex;gap:10px;flex-wrap:wrap}
+  .btn{cursor:pointer;border:1px solid #d0d7de;background:#fff;color:#5a2d82;padding:8px 14px;border-radius:8px;font-size:13px;font-weight:600;text-decoration:none;transition:.15s}
+  .btn:hover{background:#8e44ad;color:#fff;border-color:#8e44ad}
+  .container{max-width:980px;margin:14px auto 60px;padding:0 16px}
+  .markdown-body{background:#fff;border:1px solid #d8dee4;border-radius:14px;padding:38px clamp(18px,5vw,56px);box-shadow:0 6px 24px rgba(13,38,76,.06)}
+  .markdown-body table{display:table;width:100%}
+  footer{text-align:center;color:#6a737d;font-size:12px;padding:0 16px 40px}
+  #status{text-align:center;padding:40px;color:#6a737d}
+  @media print{.site-header,.toolbar,footer{display:none}body{background:#fff}.markdown-body{border:none;box-shadow:none;padding:0}}
+</style>
+</head>
+<body>
+  <header class="site-header">
+    <h1>特定技能「工業製品製造業」徹底解説</h1>
+    <p>技人国からの移行を検討するAOC向け 詳細資料（公式情報に基づく）</p>
+    <span class="badge">詳細解説</span>
+  </header>
+  <div class="toolbar">
+    <a class="btn" href="index.html">← トップに戻る</a>
+    <div class="right">
+      <a class="btn" href="特定技能_工業製品製造業_詳細解説.md" download>📄 Markdown</a>
+      <button class="btn" onclick="window.print()">🖨️ 印刷 / PDF</button>
+    </div>
+  </div>
+  <main class="container">
+    <article id="content" class="markdown-body"><div id="status">読み込み中…</div></article>
+  </main>
+  <footer>試験回数・問題数・合格基準・受入れ要件は改正されることがあります。実行前に公式サイト（JAIM・出入国在留管理庁等）で最新情報をご確認ください。</footer>
+<script>
+  fetch("特定技能_工業製品製造業_詳細解説.md")
+    .then(r=>{if(!r.ok)throw new Error(r.status);return r.text()})
+    .then(md=>{marked.setOptions({gfm:true,breaks:false});document.getElementById("content").innerHTML=marked.parse(md)})
+    .catch(err=>{document.getElementById("status").textContent="読み込みに失敗しました（"+err+"）。"});
+</script>
+</body>
+</html>
